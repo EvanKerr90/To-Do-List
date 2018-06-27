@@ -10,13 +10,16 @@
     "type": "git",
     "url": "git+https://github.com/thomaszs/weather-app.git"
   },
-  "author": "",
+  "author": "Thomas Zhang",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/thomaszs/weather-app/issues"
   },
   "homepage": "https://github.com/thomaszs/weather-app#readme",
   "dependencies": {
-    "express": "^4.16.3"
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "request": "^2.87.0"
   }
 }
