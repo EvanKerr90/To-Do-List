@@ -13,12 +13,12 @@ app.use(bodyParser.urlencoded({
 app.set('view engine', 'ejs');
 
 app.get('/', function (req, res) {
-  res.render('index' {weather:null, error:null});
+  res.render('index', {weather:null, error:null});
 })
 
 app.post('/', function (req, res) {
   let city = req.body.city;
-  let url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=${apiKey}`
+  let url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`
 
   request(url, function (err, response, body) {
     if (err) {
