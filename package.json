@@ -1,25 +1,30 @@
 {
-  "name": "weather-app",
+  "name": "to-do-list",
   "version": "1.0.0",
-  "description": "A simple weather app!",
+  "description": "A smart to-do list!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thomaszs/weather-app.git"
+    "url": "git+https://github.com/SmugSnake/To-Do-List"
   },
-  "author": "Thomas Zhang",
+  "author": "Evan Kerr",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/thomaszs/weather-app/issues"
+    "url": "https://github.com/SmugSnake/To-Do-List/issues"
   },
-  "homepage": "https://github.com/thomaszs/weather-app#readme",
+  "homepage": "https://github.com/SmugSnake/To-Do-List#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
+    "bootstrap": "^4.1.1",
+    "cookie-session": "^2.0.0-beta.3",
     "ejs": "^2.6.1",
     "express": "^4.16.3",
+    "jquery": "^3.3.1",
+    "knex": "^0.14.6",
+    "popper": "^1.0.1",
     "request": "^2.87.0"
   }
 }
